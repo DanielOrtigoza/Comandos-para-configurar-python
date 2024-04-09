@@ -1,5 +1,11 @@
 # Configurar Python Anaconda
 
+Comandos básicos de Anaconda 
+
+`conda --version`: comando para ver la versión actual de Anaconda
+
+`conda rename -n old_name new_name`: comando para renombrar un ambiente virtual
+
 Comandos para correr en anaconda cuando creo un ambiente virtual donde “nombre” corresponde al nombre del ambiente virtual
 
 `conda create -n “nombre”`
