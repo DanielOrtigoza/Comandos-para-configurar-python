@@ -28,6 +28,8 @@ Comandos para correr en anaconda cuando creo un ambiente virtual donde “nombre
 
 `conda install -c conda-forge matplotlib`
 
+`conda install -c conda-forge imbalanced-learn`
+
 `conda install -c conda-forge jupyterlab`
 
 `pip install db-dtypes google google-cloud google-cloud-bigquery google-auth`
