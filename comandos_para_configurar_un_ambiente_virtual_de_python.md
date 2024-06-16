@@ -30,6 +30,23 @@ Comandos para correr en anaconda cuando creo un ambiente virtual donde “nombre
 
 `conda install -c conda-forge imbalanced-learn`
 
+`pip install tensorflow`
+
+Si presenta problemas, con charset-normalizer, estos dos comandos ayudan a solucionar eso:
+
+`pip uninstall charset-normalizer`
+
+`pip install charset-normalizer`
+
+Si llega a salir este error:
+
+ERROR: Could not install packages due to an OSError: [WinError 5] Access is denied: 'C:\\Users\\vonst\\anaconda3\\envs\\main\\Lib\\site-packages\\charset_normalizer\\md.cp312-win_amd64.pyd'
+Consider using the `--user` option or check the permissions.
+
+Este comando corrige eso:
+
+`pip install charset-normalizer --user`
+
 `conda install -c conda-forge jupyterlab`
 
 `pip install db-dtypes google google-cloud google-cloud-bigquery google-auth`
