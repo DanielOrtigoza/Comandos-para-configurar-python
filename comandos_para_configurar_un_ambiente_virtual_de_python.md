@@ -52,3 +52,7 @@ Este comando corrige eso:
 `pip install db-dtypes google google-cloud google-cloud-bigquery google-auth`
 
 `pip install ipympl`
+
+# Comando para configurar la conexión a bigquery desde la consolda SDK
+
+gcloud auth application-default login -> comando para poder hacer log in desde la cuenta coorporativa
